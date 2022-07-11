@@ -11,6 +11,6 @@ public class Account {
 
     public boolean checkNameToEmboss() {
         return (name.length() <= 19
-                && name.matches(nameValidationRegexxx));
+                && name.matches(nameValidationRegex));
     }
 }
